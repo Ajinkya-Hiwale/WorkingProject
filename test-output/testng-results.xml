@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17665" started-at="2020-09-30T05:10:56Z" finished-at="2020-09-30T05:11:14Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunTesterClass@22f71333]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="17665" started-at="2020-09-30T05:10:56Z" finished-at="2020-09-30T05:11:14Z">
+      <class name="RunTesterClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunTesterClass@22f71333]" name="setUpClass" is-config="true" duration-ms="707" started-at="2020-09-30T10:40:56Z" finished-at="2020-09-30T10:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunTesterClass@22f71333]" name="runScenario" duration-ms="16286" started-at="2020-09-30T10:40:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-30T10:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Some Scenarios"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["AmmdocTest"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created
+from chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-42M9JTP', ip: '192.168.43.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B187E3+2852835]
+	Ordinal0 [0x00A05BB1+1727409]
+	Ordinal0 [0x008DE362+516962]
+	Ordinal0 [0x008D7D82+490882]
+	Ordinal0 [0x008D846B+492651]
+	Ordinal0 [0x008D93C5+496581]
+	Ordinal0 [0x008D4D64+478564]
+	Ordinal0 [0x008DF300+520960]
+	Ordinal0 [0x0088E489+189577]
+	Ordinal0 [0x0088D7FD+186365]
+	Ordinal0 [0x0088B70B+177931]
+	Ordinal0 [0x00872584+75140]
+	Ordinal0 [0x00873650+79440]
+	Ordinal0 [0x008735E9+79337]
+	Ordinal0 [0x00A1AD5C+1813852]
+	GetHandleVerifier [0x00C3C616+1075574]
+	GetHandleVerifier [0x00C3C367+1074887]
+	GetHandleVerifier [0x00C47497+1120247]
+	GetHandleVerifier [0x00C3CC16+1077110]
+	Ordinal0 [0x00A13206+1782278]
+	Ordinal0 [0x00A1C3BB+1819579]
+	Ordinal0 [0x00A1C523+1819939]
+	Ordinal0 [0x00A32B45+1911621]
+	BaseThreadInitThunk [0x76F06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77047C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77047BF4+180]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-42M9JTP', ip: '192.168.43.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B187E3+2852835]
+	Ordinal0 [0x00A05BB1+1727409]
+	Ordinal0 [0x008DE362+516962]
+	Ordinal0 [0x008D7D82+490882]
+	Ordinal0 [0x008D846B+492651]
+	Ordinal0 [0x008D93C5+496581]
+	Ordinal0 [0x008D4D64+478564]
+	Ordinal0 [0x008DF300+520960]
+	Ordinal0 [0x0088E489+189577]
+	Ordinal0 [0x0088D7FD+186365]
+	Ordinal0 [0x0088B70B+177931]
+	Ordinal0 [0x00872584+75140]
+	Ordinal0 [0x00873650+79440]
+	Ordinal0 [0x008735E9+79337]
+	Ordinal0 [0x00A1AD5C+1813852]
+	GetHandleVerifier [0x00C3C616+1075574]
+	GetHandleVerifier [0x00C3C367+1074887]
+	GetHandleVerifier [0x00C47497+1120247]
+	GetHandleVerifier [0x00C3CC16+1077110]
+	Ordinal0 [0x00A13206+1782278]
+	Ordinal0 [0x00A1C3BB+1819579]
+	Ordinal0 [0x00A1C523+1819939]
+	Ordinal0 [0x00A32B45+1911621]
+	BaseThreadInitThunk [0x76F06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77047C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77047BF4+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Stepdef.AmdocxTestSteps.user_Launch_browser(AmdocxTestSteps.java:20)
+	at ✽.User Launch browser--(file:///C:/Users/Ajinkya/Downloads/AjDemonstrate-master/AjDemonstrate-master/Amdocx_test/src/test/java/featurefile/AmdocxTest.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunTesterClass@22f71333]" name="tearDownClass" is-config="true" duration-ms="637" started-at="2020-09-30T10:41:13Z" finished-at="2020-09-30T10:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RunTesterClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
